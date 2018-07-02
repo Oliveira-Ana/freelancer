@@ -1,3 +1,148 @@
-/*
- * Estilos de tu proyecto
- */
+*{
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body {
+margin: 0;
+width: 1260px;
+}
+.header{
+  display: flex;
+  background-color: #2C3E50;
+  padding: 25px 60px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+  font-size: 800;
+  padding-left: 140px;
+  padding-right: 180px;
+  font-family: 'Lato', sans-serif;
+}
+h5{
+text-align: right;
+margin-left: 485px;
+ }
+.start{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 900;
+  background-color: #18BC9C;
+  padding-bottom: 6em;
+  color: white;
+}
+
+#image{
+  margin-top: 100px;
+}
+.text1{
+  margin-top: 20px;
+  font-size: 70px;
+}
+.icon-star:before {
+  content: "\e900";
+  color: white;
+}
+.text2{
+  margin-top: 30px;
+  font-size: 23px;
+}
+.portfolio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 900;
+  padding-bottom: -100px;
+  background-color: #FFFFFF;
+  color: black;
+}
+ .title{
+  margin-top: 95px;
+  font-size: 40px;
+}
+.portfolioImages{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 950px;
+    margin: 60px auto;
+}
+.portfolioImages img {
+  margin-top: 10px;
+  margin: 20px 0;
+}
+.about{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  height: 480px;
+  background-color: #18BC9C;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 900;
+  color: white;
+}
+.titleAbout{
+  margin-top: 105px;
+  font-size: 40px;
+}
+.textAbout{
+  display: flex;
+   margin-top: 40px;
+  font-size: 20px;
+}
+
+.downloadButton{
+  margin: 3px 10px 20px 0;
+  margin-top: 90px;
+  padding: 10px 20px;
+  background-color: #18BC9C;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 20px;
+}
+
+.contactMe{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  height: 500px;
+  background-color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 900;
+  color: black;
+}
+.titleContact{
+  margin-top: 80px;
+  font-size: 40px;
+}
+.pageDown{
+  background-color: #2C3E50;
+  padding: 120px 120px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+.menuFooter{
+  background-color: #2C3E50;
+  padding: 120px 120px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 100px;
+  color: white;
+
+}
+small{
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  color: white;
+  padding: 40px 0;
+}
